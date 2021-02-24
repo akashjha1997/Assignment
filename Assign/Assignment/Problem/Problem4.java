@@ -37,7 +37,6 @@ public class Problem4 {
 		// recursively calling the method
 		newSentence[index]=	callRecursivelyForReverseString(ch, newCh, begIndex, endIndex);
 		index++;
-	//	String str1=temp.concat(newSentence[index]);
 		callRecursivelyForWords(newSentence,strArray,index);
 
 		
